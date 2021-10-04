@@ -14,8 +14,8 @@
 
 ### Run
 
-Run the app:
-
-```console
-python3 app.py
-```
+1. Make sure the Pi-Car hat is turned on
+2. Run the Flask app:
+   ```console
+   python3 app.py
+   ```
