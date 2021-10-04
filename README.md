@@ -1,4 +1,17 @@
-### Setup
+## Requests
+
+### `/controls`
+
+| Request URL | Action             |
+|-------------|--------------------|
+| `/left`     | Turn car left      |
+| `/right`    | Turn car right     |
+| `/forward`  | Move car forward   |
+| `/backward` | Move card backward |
+| `/stop`     | Stop the car       |
+
+## Setup
+### Install
 
 1. Install Pi-Car dependencies:
 
