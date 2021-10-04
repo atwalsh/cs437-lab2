@@ -16,6 +16,8 @@
 |------------------|-----------------------------------------------------------|
 | `/data/ip`       | Get the Pi's IP address                                   |
 | `/data/distance` | Get a distance reading (in cm) from the ultrasonic sensor |
+| `/data/cpu-temp` | Get the Pi's CPU temp in Celsius                          |
+| `/data/cpu-usage` | Get the Pi's CPU usage                                   |
 
 ## Setup
 
