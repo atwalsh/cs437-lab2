@@ -1,7 +1,7 @@
 from flask import Blueprint
 
 from picar_4wd import Ultrasonic, Pin
-from picar_4wd.utils import getIP, cpu_temperature, cpu_usage
+from picar_4wd.utils import getIP, cpu_temperature, cpu_usage as _cpu_usage
 
 data_bp = Blueprint('data_bp', __name__, url_prefix='/data')
 
@@ -29,4 +29,4 @@ def cpu_temp():
 @data_bp.route('/cpu-usage')
 def cpu_usage():
     """Get the Pi's CPU usage."""
-    return str(cpu_usage())
+    return str(_cpu_usage())
