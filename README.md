@@ -2,15 +2,23 @@
 
 ### `/controls`
 
-| Request URL | Action             |
-|-------------|--------------------|
-| `/left`     | Turn car left      |
-| `/right`    | Turn car right     |
-| `/forward`  | Move car forward   |
-| `/backward` | Move card backward |
-| `/stop`     | Stop the car       |
+| Request URL          | Action             |
+|----------------------|--------------------|
+| `/controls/left`     | Turn car left      |
+| `/controls/right`    | Turn car right     |
+| `/controls/forward`  | Move car forward   |
+| `/controls/backward` | Move card backward |
+| `/controls/stop`     | Stop the car       |
+
+### `/data`
+
+| Request URL      | Action                                                    |
+|------------------|-----------------------------------------------------------|
+| `/data/ip`       | Get the Pi's IP address                                   |
+| `/data/distance` | Get a distance reading (in cm) from the ultrasonic sensor |
 
 ## Setup
+
 ### Install
 
 1. Install Pi-Car dependencies:
